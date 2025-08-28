@@ -1,0 +1,14 @@
+fastf1
+pandas
+numpy
+plotly
+streamlit
+tqdm
+pydantic>=2
+
+# LangChain + community integrations
+langchain
+langchain-community
+
+# Vector store
+chromadb
