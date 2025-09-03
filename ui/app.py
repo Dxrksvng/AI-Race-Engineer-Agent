@@ -1,6 +1,6 @@
 # ui/app.py
 import streamlit as st
-from logger import log_event, read_events
+from race_logger import log_event, read_events
 
 st.set_page_config(page_title="AI Race Engineer", layout="wide")
 

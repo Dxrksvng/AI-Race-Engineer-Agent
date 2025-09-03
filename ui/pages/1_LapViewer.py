@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import sys, os
-from logger import log_event, read_events
+from race_logger import log_event, read_events
 
 import streamlit as st
 import pandas as pd
