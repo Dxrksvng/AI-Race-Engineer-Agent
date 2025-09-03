@@ -2,8 +2,7 @@
 from __future__ import annotations
 
 import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from ui.logger import log_event, read_events
+from logger import log_event, read_events
 
 import streamlit as st
 import pandas as pd
