@@ -2,9 +2,15 @@ fastf1
 pandas
 numpy
 plotly
+matplotlib
 streamlit
+openpyxl
+xlsxwriter
+fpdf2
 tqdm
 pydantic>=2
+# puREST
+pytest
 
 # LangChain + community integrations
 langchain

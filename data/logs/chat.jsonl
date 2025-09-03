@@ -1,0 +1,2 @@
+{"ts": null, "session_meta": "", "question": "lap summary VER", "answer_len": 54, "tool_used": "none", "latency_ms": 0.0}
+{"ts": null, "session_meta": "Bahrain Grand Prix Qualifying (2024)", "question": "lap summary VER", "answer_len": 51, "tool_used": "telemetry_query", "latency_ms": 26064.55}

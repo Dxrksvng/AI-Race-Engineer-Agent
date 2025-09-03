@@ -35,13 +35,19 @@ def _build_retriever() -> Optional[object]:
     vectordb = Chroma.from_documents(chunks, embedding=embeddings, persist_directory=CHROMA_DIR)
     return vectordb.as_retriever(search_kwargs={"k": 3})
 
-def build_agent(session=None):
+def build_agent(session=None, use_rag: bool = True):
     llm = ChatOllama(model=DEFAULT_LLM, base_url=OLLAMA_BASE_URL, temperature=0)
 
-    retriever = _build_retriever()
-    qa_chain = RetrievalQA.from_chain_type(
-        llm=llm, retriever=retriever, return_source_documents=False
-    ) if retriever else None
+        # ✅ ใหม่: toggle RAG
+    retriever = _build_retriever() if use_rag else None
+    qa_chain = None
+    if retriever:
+        from langchain.chains import RetrievalQA
+        qa_chain = RetrievalQA.from_chain_type(
+            llm=llm,
+            retriever=retriever,
+            return_source_documents=False
+        )
 
     # --- Tools ---
     def _tool_lap_summary(q: str) -> str:
@@ -83,9 +89,9 @@ def build_agent(session=None):
 
     def _tool_kb(q: str) -> str:
         if not qa_chain:
-            return "KB empty. Put .md files in kb/."
+            return "(tool: kb_ask) KB disabled in this run."
         ans = qa_chain.invoke(q)
-        return ans["result"] if isinstance(ans, dict) else str(ans)
+        return f"(tool: kb_ask) {ans['result'] if isinstance(ans, dict) else str(ans)}"
 
     tools = [
         Tool("telemetry_query", _tool_lap_summary, "สรุป lap เช่น 'lap summary VER'"),
@@ -117,7 +123,7 @@ def build_agent(session=None):
         agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         verbose=False,
         handle_parsing_errors=True,
-        agent_kwargs={"prefix": prefix},
+        agent_kwargs={"prefix": "You are an AI Race Engineer."},
         max_iterations=4,
     )
     return agent

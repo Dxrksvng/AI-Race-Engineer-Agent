@@ -28,7 +28,7 @@ def lap_summary(session, driver: str) -> pd.DataFrame:
     """
     สรุป Lap ของไดรเวอร์: LapNumber, LapTime(s), Sector1/2/3(s), Compound, Stint
     """
-    laps = session.laps.pick_driver(driver).copy()
+    laps = session.laps.pick_drivers(driver).copy()
     if laps.empty:
         return pd.DataFrame()
     df = pd.DataFrame({
@@ -110,28 +110,39 @@ def suggest_pit_lap_simple(session, driver: str, pit_loss_s: float = 20.0) -> di
     return {"recommend_lap": int(df['LapNumber'].median()), "reason": reason}
 
 def evaluate_undercut_simple(session, attacker: str, defender: str, pit_loss_s: float = 20.0) -> dict:
-    """คำนวณ undercut แบบเร็ว ๆ จาก lap_summary:
-    - ประเมิน deg ของ defender จากสโลป lap ล่าสุด
-    - กำไรโจมตี ≈ max(0, defender_deg_per_lap) * HORIZON  (เช่น 1–2 laps)
-    - ถ้า กำไร > pit_loss → viable
     """
-    HORIZON = 2  # ลอง 2 laps
+    ประเมิน undercut แบบ heuristic:
+    - ใช้ 6–8 laps ท้ายของ defender หา slope(deg) ด้วย polyfit (วินาที/ลาพ์)
+    - คาด gain ใน 2 laps หลัง attacker พิท (HORIZON=2); ถ้า gain > pit_loss -> viable
+    """
+    import numpy as np
+    HORIZON = 2
+
     a = lap_summary(session, attacker)
     d = lap_summary(session, defender)
     if a.empty or d.empty:
-        return {"viable": None, "reason": "missing laps"}
+        return {"viable": None, "reason": "missing laps", "expected_gain_s": None, "pit_loss_s": float(pit_loss_s)}
 
-    # สโลปเสื่อมของ defender จากเส้นตรงช่วงท้าย
-    tail = d.tail(min(8, len(d)))  # ใช้ 6–8 laps ท้ายสุด
+    tail_n = int(min(8, len(d)))
+    if tail_n < 3:
+        return {"viable": None, "reason": "too few laps for defender", "expected_gain_s": None, "pit_loss_s": float(pit_loss_s)}
+
+    tail = d.tail(tail_n)
     x = tail["LapNumber"].to_numpy(dtype=float)
     y = tail["LapTime_s"].to_numpy(dtype=float)
-    if len(x) < 3:
-        return {"viable": None, "reason": "too few laps for defender"}
 
-    slope = float(np.polyfit(x, y, 1)[0])  # s/lap
+    if len(x) != len(y) or len(x) < 3 or not np.isfinite(y).all():
+        return {"viable": None, "reason": "insufficient clean data", "expected_gain_s": None, "pit_loss_s": float(pit_loss_s)}
+
+    slope = float(np.polyfit(x, y, 1)[0])  # + = ช้าลงต่อรอบ
     defender_deg = max(0.0, slope)
     expected_gain = defender_deg * HORIZON
 
-    viable = expected_gain > pit_loss_s
-    reason = f"defender_deg≈{defender_deg:.3f}s/lap, horizon={HORIZON}, gain≈{expected_gain:.1f}s vs pit_loss={pit_loss_s:.1f}s"
-    return {"viable": viable, "expected_gain_s": expected_gain, "pit_loss_s": pit_loss_s, "reason": reason}
+    viable = expected_gain > float(pit_loss_s)
+    reason = f"defender_deg≈{defender_deg:.3f}s/lap, horizon={HORIZON}, gain≈{expected_gain:.2f}s vs pit_loss={pit_loss_s:.1f}s"
+    return {
+        "viable": bool(viable),
+        "expected_gain_s": float(expected_gain),
+        "pit_loss_s": float(pit_loss_s),
+        "reason": reason
+    }

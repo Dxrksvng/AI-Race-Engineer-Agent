@@ -1,0 +1,7 @@
+﻿question,ok,latency_ms,answer_len,error,answer,lap_best_VER,stints_VER_rows,delta_rows
+lap summary VER,1,0.97,62,,(tool: telemetry_query) VER: rows=11 best=89.179s avg=102.439s,89.179,6,7
+stint summary VER,1,3.1,209,,(tool: stint_summary)  Stint Compound  Laps  AvgLapTime_s  BestLap_s    1.0     SOFT     2      109.3785     90.031    2.0     SOFT     2       96.5075     90.160    3.0     SOFT     2      103.1235     89.374,89.179,6,7
+VER vs LEC,1,2.51,54,,(tool: delta_compare) VER-LEC mean d=-2.730s samples=7,89.179,6,7
+VER pit loss 20,1,1.11,64,,"(tool: strategy_simulator) VER: pit_loss~20.0s, ref_best~89.179s",89.179,6,7
+undercut VER vs LEC pit loss 20,1,2.1,150,,"(tool: undercut_evaluator) VER vs LEC | viable=False | gain~2.11s vs pit_loss=20.0s | defender_deg~1.053s/lap, horizon=2, gain~2.11s vs pit_loss=20.0s",89.179,6,7
+When is an undercut viable with pit loss 20s?,1,0.0,91,,(kb) Undercut is viable when time gained after pit > pit loss. Typical pit loss is ~18-23s.,89.179,6,7
