@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from ui.logger import log_event, read_events
 
 import streamlit as st
 import pandas as pd
@@ -10,7 +11,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import time
 
-from ui.logger import log_event, read_events
 LOG_PATH = os.getenv("LOG_FILE", "data/logs/chat.jsonl")
 
 from agents.agent import build_agent
