@@ -1,8 +1,9 @@
-# ui/app.py
-from __future__ import annotations
-
+# ui/pages/1_LapViewer.py
 import sys, os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+import streamlit as st
+
+# บังคับให้มองเห็น root ของโปรเจกต์
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from race_logger import log_event, read_events
 
