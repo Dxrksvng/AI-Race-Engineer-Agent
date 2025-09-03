@@ -1,5 +1,7 @@
 # ui/app.py
 import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))  # เพิ่ม path root
+
 from race_logger import log_event, read_events
 
 import streamlit as st

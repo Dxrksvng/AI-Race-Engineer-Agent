@@ -1,4 +1,9 @@
-# ui/logger.py
+# ui/race_logger.py
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))  # เพิ่ม path root
+
+from race_logger import log_event, read_events
+
 from __future__ import annotations
 import os, json, datetime
 from typing import Optional, Dict, Any, List
