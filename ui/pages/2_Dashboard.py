@@ -1,6 +1,6 @@
 # ui/app.py
 import sys, os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))  # เพิ่ม path root
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from race_logger import log_event, read_events
 

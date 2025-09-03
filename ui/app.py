@@ -1,5 +1,8 @@
 # ui/app.py
 import streamlit as st
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from race_logger import log_event, read_events
 
 st.set_page_config(page_title="AI Race Engineer", layout="wide")
