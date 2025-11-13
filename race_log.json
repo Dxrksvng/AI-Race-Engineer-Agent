@@ -1,0 +1,2415 @@
+[
+  {
+    "event": "lap_completed",
+    "data": {
+      "lap": 1,
+      "time": 95.32,
+      "driver": "AI_Bot",
+      "timestamp": "2025-09-07T21:11:37.719083"
+    },
+    "timestamp": "2025-09-07T21:11:37.719100"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.626063"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.031000"
+    },
+    "timestamp": "2025-09-07T21:22:42.626494"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 3,
+      "lap_time": "0 days 00:02:08.726000"
+    },
+    "timestamp": "2025-09-07T21:22:42.626629"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.626747"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.160000"
+    },
+    "timestamp": "2025-09-07T21:22:42.626867"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 6,
+      "lap_time": "0 days 00:01:42.855000"
+    },
+    "timestamp": "2025-09-07T21:22:42.626980"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.627087"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 8,
+      "lap_time": "0 days 00:01:29.374000"
+    },
+    "timestamp": "2025-09-07T21:22:42.627196"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 9,
+      "lap_time": "0 days 00:01:56.873000"
+    },
+    "timestamp": "2025-09-07T21:22:42.627309"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.627427"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 11,
+      "lap_time": "0 days 00:01:37.787000"
+    },
+    "timestamp": "2025-09-07T21:22:42.627548"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 12,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.627669"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 13,
+      "lap_time": "0 days 00:01:29.421000"
+    },
+    "timestamp": "2025-09-07T21:22:42.627809"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 14,
+      "lap_time": "0 days 00:01:52.745000"
+    },
+    "timestamp": "2025-09-07T21:22:42.627948"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 15,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.628078"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 16,
+      "lap_time": "0 days 00:01:29.179000"
+    },
+    "timestamp": "2025-09-07T21:22:42.628210"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "VER",
+      "lap": 17,
+      "lap_time": "0 days 00:01:59.683000"
+    },
+    "timestamp": "2025-09-07T21:22:42.628345"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.628482"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.260000"
+    },
+    "timestamp": "2025-09-07T21:22:42.628642"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 3,
+      "lap_time": "0 days 00:01:51.926000"
+    },
+    "timestamp": "2025-09-07T21:22:42.628804"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.628964"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.243000"
+    },
+    "timestamp": "2025-09-07T21:22:42.629117"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 6,
+      "lap_time": "0 days 00:01:48.538000"
+    },
+    "timestamp": "2025-09-07T21:22:42.629343"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.629569"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 8,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.629807"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 9,
+      "lap_time": "0 days 00:01:30.094000"
+    },
+    "timestamp": "2025-09-07T21:22:42.630038"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 10,
+      "lap_time": "0 days 00:01:47.230000"
+    },
+    "timestamp": "2025-09-07T21:22:42.630261"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 11,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.630500"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 12,
+      "lap_time": "0 days 00:01:29.165000"
+    },
+    "timestamp": "2025-09-07T21:22:42.630781"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 13,
+      "lap_time": "0 days 00:02:02.605000"
+    },
+    "timestamp": "2025-09-07T21:22:42.631046"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 14,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.631282"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 15,
+      "lap_time": "0 days 00:01:29.480000"
+    },
+    "timestamp": "2025-09-07T21:22:42.631527"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 16,
+      "lap_time": "0 days 00:01:51.690000"
+    },
+    "timestamp": "2025-09-07T21:22:42.631797"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 17,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.632060"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 18,
+      "lap_time": "0 days 00:01:29.407000"
+    },
+    "timestamp": "2025-09-07T21:22:42.632329"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "LEC",
+      "lap": 19,
+      "lap_time": "0 days 00:02:01.348000"
+    },
+    "timestamp": "2025-09-07T21:22:42.632690"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.632977"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.350000"
+    },
+    "timestamp": "2025-09-07T21:22:42.633252"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 3,
+      "lap_time": "0 days 00:02:04.720000"
+    },
+    "timestamp": "2025-09-07T21:22:42.633540"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.633831"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 5,
+      "lap_time": "0 days 00:02:09.967000"
+    },
+    "timestamp": "2025-09-07T21:22:42.634144"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 6,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.634452"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 7,
+      "lap_time": "0 days 00:01:30.698000"
+    },
+    "timestamp": "2025-09-07T21:22:42.634749"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 8,
+      "lap_time": "0 days 00:01:47.025000"
+    },
+    "timestamp": "2025-09-07T21:22:42.635055"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 9,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.635374"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 10,
+      "lap_time": "0 days 00:01:29.922000"
+    },
+    "timestamp": "2025-09-07T21:22:42.635697"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 11,
+      "lap_time": "0 days 00:02:06.521000"
+    },
+    "timestamp": "2025-09-07T21:22:42.636014"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 12,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.636310"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 13,
+      "lap_time": "0 days 00:01:29.603000"
+    },
+    "timestamp": "2025-09-07T21:22:42.636790"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 14,
+      "lap_time": "0 days 00:02:05.430000"
+    },
+    "timestamp": "2025-09-07T21:22:42.637164"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 15,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.637488"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 16,
+      "lap_time": "0 days 00:01:29.485000"
+    },
+    "timestamp": "2025-09-07T21:22:42.637804"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RUS",
+      "lap": 17,
+      "lap_time": "0 days 00:02:09.274000"
+    },
+    "timestamp": "2025-09-07T21:22:42.638113"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.638415"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.208000"
+    },
+    "timestamp": "2025-09-07T21:22:42.638719"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 3,
+      "lap_time": "0 days 00:01:59.562000"
+    },
+    "timestamp": "2025-09-07T21:22:42.639041"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.639375"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 5,
+      "lap_time": "0 days 00:01:29.909000"
+    },
+    "timestamp": "2025-09-07T21:22:42.639692"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 6,
+      "lap_time": "0 days 00:01:48.457000"
+    },
+    "timestamp": "2025-09-07T21:22:42.640009"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.640340"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.425000"
+    },
+    "timestamp": "2025-09-07T21:22:42.640679"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 9,
+      "lap_time": "0 days 00:01:48.846000"
+    },
+    "timestamp": "2025-09-07T21:22:42.641019"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.641357"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 11,
+      "lap_time": "0 days 00:01:29.573000"
+    },
+    "timestamp": "2025-09-07T21:22:42.641714"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 12,
+      "lap_time": "0 days 00:01:52.447000"
+    },
+    "timestamp": "2025-09-07T21:22:42.642064"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 13,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.642409"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 14,
+      "lap_time": "0 days 00:01:29.608000"
+    },
+    "timestamp": "2025-09-07T21:22:42.642777"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 15,
+      "lap_time": "0 days 00:01:55.236000"
+    },
+    "timestamp": "2025-09-07T21:22:42.643169"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 16,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.643710"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 17,
+      "lap_time": "0 days 00:01:29.507000"
+    },
+    "timestamp": "2025-09-07T21:22:42.644132"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAI",
+      "lap": 18,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.644545"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.644976"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.221000"
+    },
+    "timestamp": "2025-09-07T21:22:42.645372"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 3,
+      "lap_time": "0 days 00:02:02.063000"
+    },
+    "timestamp": "2025-09-07T21:22:42.645807"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.646206"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.500000"
+    },
+    "timestamp": "2025-09-07T21:22:42.646634"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 6,
+      "lap_time": "0 days 00:01:53.606000"
+    },
+    "timestamp": "2025-09-07T21:22:42.647062"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.647481"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 8,
+      "lap_time": "0 days 00:01:29.932000"
+    },
+    "timestamp": "2025-09-07T21:22:42.647945"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 9,
+      "lap_time": "0 days 00:01:52.254000"
+    },
+    "timestamp": "2025-09-07T21:22:42.648412"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.648875"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 11,
+      "lap_time": "0 days 00:02:07.938000"
+    },
+    "timestamp": "2025-09-07T21:22:42.649306"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 12,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.649764"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 13,
+      "lap_time": "0 days 00:01:30.030000"
+    },
+    "timestamp": "2025-09-07T21:22:42.650197"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 14,
+      "lap_time": "0 days 00:01:47.564000"
+    },
+    "timestamp": "2025-09-07T21:22:42.650650"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 15,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.651117"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 16,
+      "lap_time": "0 days 00:01:29.537000"
+    },
+    "timestamp": "2025-09-07T21:22:42.651581"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PER",
+      "lap": 17,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.652060"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.652535"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.179000"
+    },
+    "timestamp": "2025-09-07T21:22:42.653021"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 3,
+      "lap_time": "0 days 00:02:04.550000"
+    },
+    "timestamp": "2025-09-07T21:22:42.653474"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.653921"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 5,
+      "lap_time": "0 days 00:01:53.925000"
+    },
+    "timestamp": "2025-09-07T21:22:42.654904"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 6,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.655319"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 7,
+      "lap_time": "0 days 00:01:30.136000"
+    },
+    "timestamp": "2025-09-07T21:22:42.655884"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 8,
+      "lap_time": "0 days 00:01:59.624000"
+    },
+    "timestamp": "2025-09-07T21:22:42.656309"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 9,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.656778"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 10,
+      "lap_time": "0 days 00:01:29.801000"
+    },
+    "timestamp": "2025-09-07T21:22:42.657227"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 11,
+      "lap_time": "0 days 00:02:01.157000"
+    },
+    "timestamp": "2025-09-07T21:22:42.657703"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 12,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.658171"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 13,
+      "lap_time": "0 days 00:01:29.542000"
+    },
+    "timestamp": "2025-09-07T21:22:42.658645"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALO",
+      "lap": 14,
+      "lap_time": "0 days 00:02:07.513000"
+    },
+    "timestamp": "2025-09-07T21:22:42.659133"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.659605"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.143000"
+    },
+    "timestamp": "2025-09-07T21:22:42.660081"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 3,
+      "lap_time": "0 days 00:01:55.890000"
+    },
+    "timestamp": "2025-09-07T21:22:42.660805"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.661329"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 5,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.661838"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 6,
+      "lap_time": "0 days 00:01:29.941000"
+    },
+    "timestamp": "2025-09-07T21:22:42.662309"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 7,
+      "lap_time": "0 days 00:01:54.087000"
+    },
+    "timestamp": "2025-09-07T21:22:42.662792"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 8,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.663289"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 9,
+      "lap_time": "0 days 00:01:56.053000"
+    },
+    "timestamp": "2025-09-07T21:22:42.663782"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.664552"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 11,
+      "lap_time": "0 days 00:01:29.679000"
+    },
+    "timestamp": "2025-09-07T21:22:42.665065"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 12,
+      "lap_time": "0 days 00:01:46.285000"
+    },
+    "timestamp": "2025-09-07T21:22:42.665583"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 13,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.667437"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 14,
+      "lap_time": "0 days 00:01:29.614000"
+    },
+    "timestamp": "2025-09-07T21:22:42.668151"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "NOR",
+      "lap": 15,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.668657"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.669145"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.692000"
+    },
+    "timestamp": "2025-09-07T21:22:42.669641"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 3,
+      "lap_time": "0 days 00:01:56.380000"
+    },
+    "timestamp": "2025-09-07T21:22:42.670157"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.670666"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.531000"
+    },
+    "timestamp": "2025-09-07T21:22:42.671191"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 6,
+      "lap_time": "0 days 00:01:57.365000"
+    },
+    "timestamp": "2025-09-07T21:22:42.671743"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.672275"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.624000"
+    },
+    "timestamp": "2025-09-07T21:22:42.673028"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 9,
+      "lap_time": "0 days 00:01:52.289000"
+    },
+    "timestamp": "2025-09-07T21:22:42.673556"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.674124"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.122000"
+    },
+    "timestamp": "2025-09-07T21:22:42.674686"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 12,
+      "lap_time": "0 days 00:01:57.278000"
+    },
+    "timestamp": "2025-09-07T21:22:42.675454"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 13,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.676029"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 14,
+      "lap_time": "0 days 00:01:30.651000"
+    },
+    "timestamp": "2025-09-07T21:22:42.676607"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 15,
+      "lap_time": "0 days 00:01:48.367000"
+    },
+    "timestamp": "2025-09-07T21:22:42.677182"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 16,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.677758"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 17,
+      "lap_time": "0 days 00:01:29.683000"
+    },
+    "timestamp": "2025-09-07T21:22:42.678342"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "PIA",
+      "lap": 18,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.678932"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.679809"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.806000"
+    },
+    "timestamp": "2025-09-07T21:22:42.680370"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 3,
+      "lap_time": "0 days 00:01:55.826000"
+    },
+    "timestamp": "2025-09-07T21:22:42.680996"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.681583"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.451000"
+    },
+    "timestamp": "2025-09-07T21:22:42.682183"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 6,
+      "lap_time": "0 days 00:01:55.724000"
+    },
+    "timestamp": "2025-09-07T21:22:42.682790"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.683399"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.363000"
+    },
+    "timestamp": "2025-09-07T21:22:42.684011"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 9,
+      "lap_time": "0 days 00:01:44.321000"
+    },
+    "timestamp": "2025-09-07T21:22:42.684635"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.685480"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 11,
+      "lap_time": "0 days 00:01:29.718000"
+    },
+    "timestamp": "2025-09-07T21:22:42.686096"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 12,
+      "lap_time": "0 days 00:01:59.366000"
+    },
+    "timestamp": "2025-09-07T21:22:42.686709"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 13,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.687316"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 14,
+      "lap_time": "0 days 00:01:30.445000"
+    },
+    "timestamp": "2025-09-07T21:22:42.687961"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 15,
+      "lap_time": "0 days 00:01:47.151000"
+    },
+    "timestamp": "2025-09-07T21:22:42.688582"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 16,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.689240"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 17,
+      "lap_time": "0 days 00:01:29.710000"
+    },
+    "timestamp": "2025-09-07T21:22:42.689899"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HAM",
+      "lap": 18,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.690966"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.691632"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.623000"
+    },
+    "timestamp": "2025-09-07T21:22:42.692308"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 3,
+      "lap_time": "0 days 00:01:55.586000"
+    },
+    "timestamp": "2025-09-07T21:22:42.692959"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.693624"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.566000"
+    },
+    "timestamp": "2025-09-07T21:22:42.694305"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 6,
+      "lap_time": "0 days 00:01:51.635000"
+    },
+    "timestamp": "2025-09-07T21:22:42.695268"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.696217"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.997000"
+    },
+    "timestamp": "2025-09-07T21:22:42.696902"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 9,
+      "lap_time": "0 days 00:01:51.641000"
+    },
+    "timestamp": "2025-09-07T21:22:42.697597"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.698314"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 11,
+      "lap_time": "0 days 00:01:29.851000"
+    },
+    "timestamp": "2025-09-07T21:22:42.699017"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 12,
+      "lap_time": "0 days 00:01:52.113000"
+    },
+    "timestamp": "2025-09-07T21:22:42.699731"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 13,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.700459"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 14,
+      "lap_time": "0 days 00:01:30.502000"
+    },
+    "timestamp": "2025-09-07T21:22:42.701180"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 15,
+      "lap_time": "0 days 00:01:45.117000"
+    },
+    "timestamp": "2025-09-07T21:22:42.701918"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 16,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.702635"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 17,
+      "lap_time": "0 days 00:01:30.616000"
+    },
+    "timestamp": "2025-09-07T21:22:42.703370"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "HUL",
+      "lap": 18,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.704104"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.704856"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.881000"
+    },
+    "timestamp": "2025-09-07T21:22:42.705590"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 3,
+      "lap_time": "0 days 00:01:51.134000"
+    },
+    "timestamp": "2025-09-07T21:22:42.706343"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.707095"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.481000"
+    },
+    "timestamp": "2025-09-07T21:22:42.707853"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 6,
+      "lap_time": "0 days 00:01:54.230000"
+    },
+    "timestamp": "2025-09-07T21:22:42.708619"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.709379"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 8,
+      "lap_time": "0 days 00:01:31.102000"
+    },
+    "timestamp": "2025-09-07T21:22:42.710140"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 9,
+      "lap_time": "0 days 00:01:43.233000"
+    },
+    "timestamp": "2025-09-07T21:22:42.710906"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.711674"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.129000"
+    },
+    "timestamp": "2025-09-07T21:22:42.712480"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "TSU",
+      "lap": 12,
+      "lap_time": "0 days 00:01:55.713000"
+    },
+    "timestamp": "2025-09-07T21:22:42.713269"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.714054"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.864000"
+    },
+    "timestamp": "2025-09-07T21:22:42.714854"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 3,
+      "lap_time": "0 days 00:01:48.264000"
+    },
+    "timestamp": "2025-09-07T21:22:42.715647"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.716464"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 5,
+      "lap_time": "0 days 00:01:29.965000"
+    },
+    "timestamp": "2025-09-07T21:22:42.717258"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 6,
+      "lap_time": "0 days 00:01:57.189000"
+    },
+    "timestamp": "2025-09-07T21:22:42.718064"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.718876"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.982000"
+    },
+    "timestamp": "2025-09-07T21:22:42.719699"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 9,
+      "lap_time": "0 days 00:01:47.744000"
+    },
+    "timestamp": "2025-09-07T21:22:42.720516"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.721336"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.200000"
+    },
+    "timestamp": "2025-09-07T21:22:42.722168"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "STR",
+      "lap": 12,
+      "lap_time": "0 days 00:02:05.006000"
+    },
+    "timestamp": "2025-09-07T21:22:42.723001"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.723834"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.692000"
+    },
+    "timestamp": "2025-09-07T21:22:42.724677"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 3,
+      "lap_time": "0 days 00:01:56.649000"
+    },
+    "timestamp": "2025-09-07T21:22:42.725515"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.726373"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.397000"
+    },
+    "timestamp": "2025-09-07T21:22:42.727209"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 6,
+      "lap_time": "0 days 00:02:04.142000"
+    },
+    "timestamp": "2025-09-07T21:22:42.728058"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.728915"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 8,
+      "lap_time": "0 days 00:01:31.152000"
+    },
+    "timestamp": "2025-09-07T21:22:42.729770"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 9,
+      "lap_time": "0 days 00:01:46.670000"
+    },
+    "timestamp": "2025-09-07T21:22:42.730645"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.731523"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.221000"
+    },
+    "timestamp": "2025-09-07T21:22:42.732400"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ALB",
+      "lap": 12,
+      "lap_time": "0 days 00:02:07.201000"
+    },
+    "timestamp": "2025-09-07T21:22:42.733397"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.734283"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.025000"
+    },
+    "timestamp": "2025-09-07T21:22:42.735174"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 3,
+      "lap_time": "0 days 00:01:52.409000"
+    },
+    "timestamp": "2025-09-07T21:22:42.736054"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.736946"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.562000"
+    },
+    "timestamp": "2025-09-07T21:22:42.737842"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 6,
+      "lap_time": "0 days 00:01:51.968000"
+    },
+    "timestamp": "2025-09-07T21:22:42.739021"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.739851"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 8,
+      "lap_time": "0 days 00:01:31.126000"
+    },
+    "timestamp": "2025-09-07T21:22:42.740710"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 9,
+      "lap_time": "0 days 00:01:48.368000"
+    },
+    "timestamp": "2025-09-07T21:22:42.741575"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.742439"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.278000"
+    },
+    "timestamp": "2025-09-07T21:22:42.743334"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "RIC",
+      "lap": 12,
+      "lap_time": "0 days 00:01:56.019000"
+    },
+    "timestamp": "2025-09-07T21:22:42.744250"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.745165"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.252000"
+    },
+    "timestamp": "2025-09-07T21:22:42.746069"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 3,
+      "lap_time": "0 days 00:01:43.574000"
+    },
+    "timestamp": "2025-09-07T21:22:42.746963"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.747875"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.646000"
+    },
+    "timestamp": "2025-09-07T21:22:42.748784"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 6,
+      "lap_time": "0 days 00:02:04.061000"
+    },
+    "timestamp": "2025-09-07T21:22:42.749987"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.750874"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 8,
+      "lap_time": "0 days 00:01:31.170000"
+    },
+    "timestamp": "2025-09-07T21:22:42.751756"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 9,
+      "lap_time": "0 days 00:01:46.691000"
+    },
+    "timestamp": "2025-09-07T21:22:42.752671"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 10,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.753604"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 11,
+      "lap_time": "0 days 00:01:30.529000"
+    },
+    "timestamp": "2025-09-07T21:22:42.754557"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "MAG",
+      "lap": 12,
+      "lap_time": "0 days 00:01:47.834000"
+    },
+    "timestamp": "2025-09-07T21:22:42.755708"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.756614"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.077000"
+    },
+    "timestamp": "2025-09-07T21:22:42.757543"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 3,
+      "lap_time": "0 days 00:01:52.534000"
+    },
+    "timestamp": "2025-09-07T21:22:42.758465"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.759402"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.756000"
+    },
+    "timestamp": "2025-09-07T21:22:42.760351"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "BOT",
+      "lap": 6,
+      "lap_time": "0 days 00:02:06.222000"
+    },
+    "timestamp": "2025-09-07T21:22:42.761319"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.762302"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.075000"
+    },
+    "timestamp": "2025-09-07T21:22:42.763285"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 3,
+      "lap_time": "0 days 00:01:48.821000"
+    },
+    "timestamp": "2025-09-07T21:22:42.764278"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.765273"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 5,
+      "lap_time": "0 days 00:01:30.757000"
+    },
+    "timestamp": "2025-09-07T21:22:42.766477"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "ZHO",
+      "lap": 6,
+      "lap_time": "0 days 00:01:57.631000"
+    },
+    "timestamp": "2025-09-07T21:22:42.767459"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.768476"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 2,
+      "lap_time": "0 days 00:01:30.770000"
+    },
+    "timestamp": "2025-09-07T21:22:42.769485"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 3,
+      "lap_time": "0 days 00:01:54.600000"
+    },
+    "timestamp": "2025-09-07T21:22:42.770490"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.771499"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 5,
+      "lap_time": "0 days 00:01:31.128000"
+    },
+    "timestamp": "2025-09-07T21:22:42.772507"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "SAR",
+      "lap": 6,
+      "lap_time": "0 days 00:01:59.862000"
+    },
+    "timestamp": "2025-09-07T21:22:42.773534"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.774572"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 2,
+      "lap_time": "0 days 00:01:31.990000"
+    },
+    "timestamp": "2025-09-07T21:22:42.775892"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 3,
+      "lap_time": "0 days 00:01:55.505000"
+    },
+    "timestamp": "2025-09-07T21:22:42.776871"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.777881"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 5,
+      "lap_time": "0 days 00:01:31.261000"
+    },
+    "timestamp": "2025-09-07T21:22:42.778901"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 6,
+      "lap_time": "0 days 00:01:50.437000"
+    },
+    "timestamp": "2025-09-07T21:22:42.779924"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.780960"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.793000"
+    },
+    "timestamp": "2025-09-07T21:22:42.782024"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "OCO",
+      "lap": 9,
+      "lap_time": "0 days 00:02:07.493000"
+    },
+    "timestamp": "2025-09-07T21:22:42.783198"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 1,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.784264"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 2,
+      "lap_time": "0 days 00:01:32.434000"
+    },
+    "timestamp": "2025-09-07T21:22:42.785327"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 3,
+      "lap_time": "0 days 00:01:49.853000"
+    },
+    "timestamp": "2025-09-07T21:22:42.786399"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 4,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.787481"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 5,
+      "lap_time": "0 days 00:01:31.281000"
+    },
+    "timestamp": "2025-09-07T21:22:42.788551"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 6,
+      "lap_time": "0 days 00:01:49.747000"
+    },
+    "timestamp": "2025-09-07T21:22:42.789628"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 7,
+      "lap_time": "NaT"
+    },
+    "timestamp": "2025-09-07T21:22:42.790722"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 8,
+      "lap_time": "0 days 00:01:30.948000"
+    },
+    "timestamp": "2025-09-07T21:22:42.791804"
+  },
+  {
+    "event": "lap_completed",
+    "data": {
+      "driver": "GAS",
+      "lap": 9,
+      "lap_time": "0 days 00:02:02.150000"
+    },
+    "timestamp": "2025-09-07T21:22:42.792913"
+  }
+]

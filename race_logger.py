@@ -1,31 +1,40 @@
-# race_logger.py
-from __future__ import annotations
 import os
 import json
-import datetime
+from datetime import datetime
 
-def log_event(event: dict, file_path: str = "race_log.json"):
-    """บันทึก event ใหม่ลงไฟล์ JSON"""
-    events = []
-    if os.path.exists(file_path):
-        with open(file_path, "r") as f:
+# กำหนด path ของไฟล์ log
+LOG_FILE = os.path.join(os.path.dirname(__file__), "race_log.json")
+
+def log_event(event_type, data):
+    """เขียน event ลงไฟล์ log"""
+    event = {
+        "event": event_type,
+        "data": data,
+        "timestamp": datetime.now().isoformat()
+    }
+
+    # ถ้ามีไฟล์อยู่แล้ว -> โหลด
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "r") as f:
             try:
                 events = json.load(f)
             except json.JSONDecodeError:
                 events = []
+    else:
+        events = []
 
-    # เพิ่ม timestamp
-    event["timestamp"] = datetime.datetime.now().isoformat()
+    # เพิ่ม event ใหม่
     events.append(event)
 
-    with open(file_path, "w") as f:
+    # เขียนกลับลงไฟล์
+    with open(LOG_FILE, "w") as f:
         json.dump(events, f, indent=2)
 
-def read_events(file_path: str = "race_log.json"):
-    """อ่าน events ทั้งหมดจากไฟล์ JSON"""
-    if not os.path.exists(file_path):
+def read_events():
+    """อ่าน event ทั้งหมดจากไฟล์ log"""
+    if not os.path.exists(LOG_FILE):
         return []
-    with open(file_path, "r") as f:
+    with open(LOG_FILE, "r") as f:
         try:
             return json.load(f)
         except json.JSONDecodeError:
