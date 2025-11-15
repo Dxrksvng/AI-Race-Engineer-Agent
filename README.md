@@ -1,145 +1,205 @@
-# 🏎️ AI Race Engineer Dashboard
-**Turn racing data into real-time strategy.**  
-A modern end-to-end dashboard that ingests telemetry, predicts tyre & fuel windows, and recommends pit strategies — built for students, sim racers, and motorsport nerds who want pro-team tooling.
----
-https://ai-race-engineer-agent-byjj.streamlit.app/
-## 🚀 Overview
-AI Race Engineer Dashboard คือระบบ Dashboard สำหรับวิเคราะห์ข้อมูลการแข่งขันรถ (Racing Telemetry) แบบเรียลไทม์ โดยใช้ Machine Learning ในการคาดการณ์กลยุทธ์ระหว่างแข่งขัน เช่น  
-- การคาดการณ์รอบที่ควรเข้าพิต (Pit Stop Prediction)  
-- การวิเคราะห์สภาพยาง (Tyre Degradation Model)  
-- การบริหารน้ำมันเชื้อเพลิง (Fuel Window Estimation)  
-- การเปรียบเทียบข้อมูลนักขับระหว่างทีม  
+# 🏎️ AI Race Engineer Agent  
+> **"Turning lap data into race-winning intelligence."**  
+> A full-stack AI-driven dashboard that logs, analyzes, and explains race telemetry — simulating a real race engineer’s job with data, analytics, and conversational AI.
 
-ระบบนี้ออกแบบมาสำหรับ **นักศึกษาด้านข้อมูล (Data Science), นักแข่ง Simulator, และทีม Motorsport Analyst** ที่ต้องการเครื่องมือระดับทีมแข่งมืออาชีพ
-
----
-
-## ⚙️ Tech Stack
-| Layer | Technology |
-|-------|-------------|
-| Frontend | Vue 3 + Vite + TailwindCSS + Chart.js |
-| Backend | FastAPI + Python 3.10 |
-| Database | PostgreSQL (Telemetry & Strategy Logs) |
-| AI/ML | Scikit-learn / XGBoost / Prophet |
-| Data Ingestion | Kafka (optional) / CSV / REST API |
-| Visualization | Recharts / Plotly / D3.js |
-| Deployment | Docker Compose + Nginx Reverse Proxy |
-
----
-
-## 🧩 System Architecture
-```
-Driver → Telemetry API → FastAPI Backend → PostgreSQL
-                                   ↓
-                            ML Inference (Tyre/Fuel)
-                                   ↓
-                         Vue3 Dashboard Visualization
-```
-
----
-
-## 🧠 Core Features
-- 📊 Real-time telemetry visualization (Speed, RPM, Gear, Fuel)
-- ⚙️ Predictive tyre degradation model
-- ⛽ Fuel strategy optimizer
-- 🧮 Lap time delta analyzer
-- 📈 Historical race comparison
-- 🧠 AI-driven pit recommendation engine
-
----
-
-## 🧰 Installation & Setup
-
-### 1. Clone Repository  
-```bash
-git clone https://github.com/<your-username>/ai-race-engineer.git
-cd ai-race-engineer
-```
-
-### 2. Setup Backend (FastAPI)
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-> FastAPI backend will start at: `http://127.0.0.1:8000`
-
-### 3. Setup Frontend (Vue3)
-```bash
-cd frontend
-npm install
-npm run dev
-```
-> Vue dashboard will run at: `http://localhost:5173`
-
-### 4. Configure Database  
-Create PostgreSQL database named `race_engineer_db`  
-Update connection in `.env`  
-```env
-DATABASE_URL=postgresql://user:password@localhost:5432/race_engineer_db
-```
-
----
-
-## 🧪 Usage
-1. เปิดหน้าเว็บ Dashboard  
-2. Upload ไฟล์ telemetry (เช่น `.csv` หรือเชื่อม API จากเกมจำลอง เช่น F1 23, Assetto Corsa)  
-3. ระบบจะประมวลผลผ่าน FastAPI และ AI Model  
-4. Dashboard แสดงผล real-time (lap time, tyre wear, fuel level)  
-5. ระบบเสนอ “Pit Strategy Suggestion” ตามสภาพการแข่งปัจจุบัน  
-
----
-## 🖥️ Demo Website
----
-
-## 📸 Screenshots
 <p align="center">
-  <img src="assets/dashboard-preview.png" width="800"/>
+  <img src="assets/cover-hero.png" alt="AI Race Engineer Dashboard" width="860" />
+</p>
+
+<p align="center">
+  <a href="#">![version](https://img.shields.io/badge/version-1.0.0-black)</a>
+  <a href="#">![build](https://img.shields.io/badge/build-passing-brightgreen)</a>
+  <a href="#">![license](https://img.shields.io/badge/license-MIT-blue)</a>
+  <a href="#">![stack](https://img.shields.io/badge/Stack-Streamlit%20·%20LangChain%20·%20Ollama%20·%20FastF1%20·%20Plotly-informational)</a>
 </p>
 
 ---
 
-## 📚 Project Structure
+## ✨ Project Highlights
+
+* 🧠 **AI-Assisted Engineer:** วิเคราะห์ lap, stint, pit strategy และตอบคำถามเหมือน Race Engineer จริง ๆ  
+* 🧾 **Real-time Event Logging:** บันทึกทุก lap, chat, stint ลง `race_log.json`  
+* 📊 **Interactive Dashboard:** แสดง LapTime, Δ (A–B), Boxplot, และ Strategy Simulation  
+* 💬 **Conversational Agent:** AI ที่เข้าใจคำถาม เช่น “VER vs LEC” หรือ “fastest lap summary”  
+* 🧾 **Auto Reporting:** สร้าง PDF / Excel รายงานผลแบบอัตโนมัติ  
+* 💡 **End-to-End Workflow:** FastF1 → JSON Log → Analytics Tools → Dashboard → AI Chat  
+
+---
+
+## 🏗 Architecture Overview
+```mermaid
+flowchart TD
+  subgraph Data
+    A[FastF1 Telemetry] --> B[race_logger.py]
+    B --> C[(race_log.json)]
+  end
+  subgraph Processing
+    C --> D[telemetry_tools.py]
+    D --> E[auto_report.py]
+    D --> F[eval_agent.py]
+  end
+  subgraph UI
+    F --> G[Streamlit App]
+    G --> H1[1_LapViewer.py]
+    G --> H2[2_Dashboard.py]
+    G --> H3[AI Chat Interface]
+  end
+  subgraph AI
+    I[LangChain + Ollama]
+    H3 <--> I
+  end
+````
+
+---
+
+## ⚙️ Core Components
+
+### 🧾 race_logger.py
+
+Custom event logger ที่เก็บทุกเหตุการณ์ของระบบลงใน `race_log.json`
+
+```python
+log_event("lap_completed", {"driver": "VER", "lap": 32, "lap_time": "92.3"})
 ```
-ai-race-engineer/
+
+### 📈 1_LapViewer.py
+
+หน้าแสดงข้อมูล LapTime และ Δ (A–B) พร้อมกราฟแบบ interactive
+
+* โหลดข้อมูลจาก FastF1
+* แสดง Lap Chart, Delta Chart, Stint Summary
+* เชื่อม AI Chat Agent เพื่อถามข้อมูลได้โดยตรง
+
+### 📊 2_Dashboard.py
+
+Dashboard สรุปข้อมูลทั้งหมด
+
+* Fastest Lap, Average Lap Time
+* Boxplot Consistency, Δ Comparison
+* Strategy Simulation Table
+* ปุ่ม Export CSV / Excel / PDF
+
+### 🤖 agents/agent.py
+
+โมดูล AI Agent เชื่อมกับ LangChain + Ollama
+
+* ใช้ `initialize_agent()` และ tools เช่น
+
+  * `lap_summary()`
+  * `stint_summary()`
+  * `delta_compare()`
+  * `strategy_simulator()`
+* ทำให้ AI เข้าใจคำถามผู้ใช้และเรียก tool ที่เหมาะสม
+
+### 🧾 auto_report.py
+
+สร้างรายงานสรุปผลอัตโนมัติ (PDF/Excel) พร้อมกราฟจาก `matplotlib`
+
+### 🧮 strategy_sim.py
+
+จำลองกลยุทธ์ 1-stop / 2-stop และ export เป็น Excel
+ใช้สูตร:
+
+```
+total_time = Σ(laps * avg_lap_time) + (pit_loss × n_pit)
+```
+
+### 📊 visualize.py
+
+สร้างกราฟ Lap Time / Stint Avg / Delta Chart
+และบันทึกลงใน `data/plots/`
+
+---
+
+## 🧰 Tech Stack
+
+| Layer           | Technologies                  |
+| --------------- | ----------------------------- |
+| Frontend        | Streamlit, Plotly, Matplotlib |
+| Backend         | Python, FastF1                |
+| AI Agent        | LangChain, Ollama (Llama3)    |
+| Data            | JSON, Pandas, Excel           |
+| Reporting       | FPDF2, XlsxWriter             |
+| Deployment      | Streamlit Cloud               |
+| Version Control | GitHub                        |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Dxrksvng/AI-Race-Engineer-Agent.git
+cd AI-Race-Engineer-Agent
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run ui/app.py
+```
+
+เปิดหน้าเว็บที่: [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 📁 Project Structure
+
+```
+AI-Race-Engineer-Agent/
 │
-├── backend/
-│   ├── main.py
-│   ├── models/
-│   ├── routers/
-│   └── ml/
+├── ui/
+│   ├── app.py
+│   └── pages/
+│       ├── 1_LapViewer.py
+│       ├── 2_Dashboard.py
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   └── pages/
-│   └── public/
+├── agents/
+│   └── agent.py
 │
-├── assets/
-│   └── cover-hero.png
+├── tools/
+│   └── telemetry_tools.py
 │
-├── docker-compose.yml
-└── README.md
+├── race_logger.py
+├── scripts/
+│   ├── auto_report.py
+│   ├── eval_agent.py
+│   ├── strategy_sim.py
+│   └── visualize.py
+├── requirements.txt
+└── data/
+    ├── eval/
+    ├── logs/
+    └── plots/
 ```
 
 ---
 
-## 📄 License
-License © 2025 [Nattakamon Jaimetha](https://github.com/Dxrksvng)
+## 🧠 Key Learnings
+
+* ออกแบบ Data Pipeline จากการเก็บ → วิเคราะห์ → แสดงผล → รายงาน
+* เข้าใจการเชื่อม **LLM กับเครื่องมือวิเคราะห์ข้อมูลจริง**
+* ออกแบบระบบ Dashboard + Chat AI ให้ทำงานร่วมกันใน workflow เดียว
+* ใช้ FastF1 และ JSON log เป็น data source แบบ lightweight
+* Deploy ระบบให้ HR / อาจารย์เข้าดูได้จริงผ่าน Streamlit Cloud
 
 ---
 
-## 📬 Contact
-- 💼 GitHub: [Dxrksvng](https://github.com/Dxrksvng)  
-- 📧 Email: nattakamon0208@gmail.com  
-- 🏫 KMITL | Data Science & Business Analytics (Data Engineering Track)
+## 🌐 Live Demo
+
+> 🚀 [**ai-race-engineer-agent.streamlit.app**](https://ai-race-engineer-agent.streamlit.app)
+> *(เปิดดูหน้า Lap Viewer, Dashboard, และ AI Chat ได้แบบ public)*
 
 ---
 
-## 🧭 Next Milestones
-- [ ] Integrate real F1 telemetry API (FastF1 / Ergast API)  
-- [ ] Add live comparison mode between two drivers  
-- [ ] Deploy to Render + Railway for free hosting  
-- [ ] Publish model performance results in KMITL IT Journal  
+## 👩‍💻 Developer
+
+**Nattakamon Jaimetha (เจ)**
+🎓 Data Science & Business Analytics — KMITL (Data Engineering Track)
+💡 สนใจด้าน AI, Data Engineering, Motorsport Analytics
+
+🌐 GitHub: [github.com/Dxrksvng](https://github.com/Dxrksvng)
+💼 LinkedIn: [Nattakamon Jaimetha](https://www.linkedin.com/in/nattakamon-jaimetha/)
+📧 Email: [nattakamon.j@gmail.com](mailto:nattakamon.j@gmail.com)
+
+---
+
+> 🏁 *“Data never lies — but only the fastest can interpret it.”*
+> — *AI Race Engineer Agent © 2025*
