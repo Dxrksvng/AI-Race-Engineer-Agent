@@ -184,7 +184,7 @@ AI-Race-Engineer-Agent/
 
 ## 🌐 Live Demo
 
-> 🚀 [**ai-race-engineer-agent.streamlit.app**](https://ai-race-engineer-agent.streamlit.app)
+> 🚀 [**ai-race-engineer-agent.streamlit.app**](https://ai-race-engineer-agent-byjj.streamlit.app/)
 > *(เปิดดูหน้า Lap Viewer, Dashboard, และ AI Chat ได้แบบ public)*
 
 ---
