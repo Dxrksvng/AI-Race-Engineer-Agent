@@ -3,15 +3,16 @@
 > A full-stack AI-driven dashboard that logs, analyzes, and explains race telemetry — simulating a real race engineer’s job with data, analytics, and conversational AI.
 
 <p align="center">
-  <img src="assets/cover-hero.png" alt="AI Race Engineer Dashboard" width="860" />
+  <img src="assets/f1-cars-race-track-3840x2160-13489.jpg" alt="AI Race Engineer Dashboard" width="860" />
 </p>
 
 <p align="center">
-  <a href="#">![version](https://img.shields.io/badge/version-1.0.0-black)</a>
-  <a href="#">![build](https://img.shields.io/badge/build-passing-brightgreen)</a>
-  <a href="#">![license](https://img.shields.io/badge/license-MIT-blue)</a>
-  <a href="#">![stack](https://img.shields.io/badge/Stack-Streamlit%20·%20LangChain%20·%20Ollama%20·%20FastF1%20·%20Plotly-informational)</a>
+  <img src="https://img.shields.io/badge/version-1.0.0-black"/>
+  <img src="https://img.shields.io/badge/build-passing-brightgreen"/>
+  <img src="https://img.shields.io/badge/license-MIT-blue"/>
+  <img src="https://img.shields.io/badge/Stack-Streamlit%20·%20LangChain%20·%20Ollama%20·%20FastF1%20·%20Plotly-informational"/>
 </p>
+
 
 ---
 
