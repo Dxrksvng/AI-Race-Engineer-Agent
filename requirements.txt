@@ -1,3 +1,4 @@
+# Core
 fastf1
 pandas
 numpy
@@ -9,12 +10,14 @@ xlsxwriter
 fpdf2
 tqdm
 pydantic>=2
-# puREST
 pytest
 
-# LangChain + community integrations
+# LangChain + community integrations (รุ่นที่ยังมี initialize_agent)
 langchain==0.1.16
-langchain-community
+langchain-community==0.0.35
 
 # Vector store
 chromadb
+
+# Ollama / Embeddings (ถ้าใช้ใน Chat)
+ollama

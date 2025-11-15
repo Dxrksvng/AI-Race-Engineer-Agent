@@ -2,7 +2,8 @@
 from __future__ import annotations
 import os
 from typing import Optional
-from langchain.agents import initialize_agent, AgentType, Tool
+from langchain.agents import initialize_agent, AgentType
+from langchain.tools import Tool
 from langchain_community.chat_models import ChatOllama
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import Chroma
