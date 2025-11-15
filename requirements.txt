@@ -13,7 +13,7 @@ pydantic>=2
 pytest
 
 # LangChain + community integrations
-langchain
+langchain==0.1.16
 langchain-community
 
 # Vector store
