@@ -2,7 +2,7 @@
 **Turn racing data into real-time strategy.**  
 A modern end-to-end dashboard that ingests telemetry, predicts tyre & fuel windows, and recommends pit strategies — built for students, sim racers, and motorsport nerds who want pro-team tooling.
 ---
-
+https://ai-race-engineer-agent-byjj.streamlit.app/
 ## 🚀 Overview
 AI Race Engineer Dashboard คือระบบ Dashboard สำหรับวิเคราะห์ข้อมูลการแข่งขันรถ (Racing Telemetry) แบบเรียลไทม์ โดยใช้ Machine Learning ในการคาดการณ์กลยุทธ์ระหว่างแข่งขัน เช่น  
 - การคาดการณ์รอบที่ควรเข้าพิต (Pit Stop Prediction)  
