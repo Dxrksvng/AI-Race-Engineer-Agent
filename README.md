@@ -192,12 +192,12 @@ AI-Race-Engineer-Agent/
 ## 👩‍💻 Developer
 
 **Nattakamon Jaimetha (เจ)**
-🎓 Data Science & Business Analytics — KMITL (Data Engineering Track)
-💡 สนใจด้าน AI, Data Engineering, Motorsport Analytics
+> 🎓 Data Science & Business Analytics — KMITL (Data Engineering Track)
+> 💡 สนใจด้าน AI, Data Engineering, Motorsport Analytics
 
-🌐 GitHub: [github.com/Dxrksvng](https://github.com/Dxrksvng)
-💼 LinkedIn: [Nattakamon Jaimetha](https://www.linkedin.com/in/nattakamon-jaimetha/)
-📧 Email: [nattakamon.j@gmail.com](mailto:nattakamon.j@gmail.com)
+> 🌐 GitHub: [github.com/Dxrksvng](https://github.com/Dxrksvng)
+> 💼 LinkedIn: [Nattakamon Jaimetha](https://www.linkedin.com/in/nattakamon-jaimetha/)
+> 📧 Email: [nattakamon.j@gmail.com](mailto:nattakamon0208@gmail.com)
 
 ---
 
